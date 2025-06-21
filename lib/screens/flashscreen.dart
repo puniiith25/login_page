@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'home_screen.dart'; // This is your main screen to navigate after splash
 
 class SplashScreen extends StatefulWidget {
@@ -29,8 +30,8 @@ class _SplashScreenState extends State<SplashScreen> {
         5,
       ), // You can change color
       body: Center(
-        child: Image.asset(
-          'assets/images/Netflix_Symbol_RGB.png',
+        child: Lottie.asset(
+          'assets/lotties/FlashScreen.json',
         ), // Your logo here
       ),
     );
